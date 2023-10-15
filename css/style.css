@@ -1,0 +1,33 @@
+
+.pac-container{
+	background-color:#fff;
+	position:absolute;
+	z-index:1000;
+	border-radius:2px;
+	border-top:1px solid #d9d9d9;
+	font-family:Arial,sans-serif;
+	-webkit-box-shadow:0 2px 6px rgba(0,0,0,.3);
+	box-shadow:0 2px 6px rgba(0,0,0,.3);
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	overflow:hidden;
+
+}
+.pac-logo:after{
+	padding:1px 1px 1px 0
+	height:18px;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	text-align:right;
+	display:block;background-image:url(https://maps.gstatic.com/mapfiles/api-3/images/powered-by-google-on-white3.png);
+	background-position:right;
+	background-repeat:no-repeat;
+	-webkit-background-size:120px 14px;
+	background-size:120px 14px;
+
+}
+.hdpi.pac-logo:after{
+	background-image:url(https://maps.gstatic.com/mapfiles/api-3/images/powered-by-google-on-white3_hdpi.png)
+	
+
+}
